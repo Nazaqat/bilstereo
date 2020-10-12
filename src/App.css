@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: rgb(251, 253, 254);
+  color: #003755;
+  font-family: danske_textregular;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Footer Section  styling  */
+.header-color,
+.footerFoo {
+  background-color: rgb(0, 55, 85) !important;
+  color: white !important;
+}
+
+/* styling paymentMethods  */
+
+.paymentMethods {
+  width: 25rem;
+  border-radius: 45px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.shippingModes {
+  border-radius: 25px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/350px-Flag_of_Europe.svg.png);
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

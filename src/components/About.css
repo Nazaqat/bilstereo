@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.employeeCards {
+  padding: 0.5%;
+  grid-column-gap: 50px;
+  border-radius: 15px;
+  display: flex;
+  transition: 0.4s ease-out;
+  box-shadow: 0px 7px 10px rgba(black, 0.5);
+  padding: 2%;
+  margin-left: 10%;
+  margin-right: 7%;
+  background-color: #d5dbdb;
+}
+
+.employeeCards:hover {
+  transform: translateY(20px);
+}
+
+.blockquote {
+  background: #f9f9f9;
+  border-left: 3px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 10%;
+  margin-right: 8%;
+}
+.blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
